@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="TestNG Practice session Test Suite" >
+	
+
+	
+	<test name="Practice Basic Test Cases ">
+		
+		<classes>
+			<class name="practicepurpose.ExceptionTimeOutTest"/>
+			<class name="practicepurpose.GoogleTest"/>
+			<class name="practicepurpose.GoogleTitleTest"/>
+			<class name="practicepurpose.InvocationCountTest"/>
+			<class name="practicepurpose.TestNGFeatures"/>
+				
+			
+		</classes>
+	
+	</test>
+	
+	 
+	
+	
+</suite>

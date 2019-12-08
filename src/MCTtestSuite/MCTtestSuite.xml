@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MCT ALL Basic Test SUite" parallel="tests"
+	thread-count="4">
+
+	<!-- Test -->
+	<test name="MCT Basic Test Cases ">
+		<classes>
+			<class name="mct.testrunner.SmokeWithTestng">
+				<methods>
+					<include name="login" />
+ 					<include name="logOut" /> 
+ 					<include name="signUp" /> 
+ 					<include name="myAccount" /> 
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="MCT Advance Test Cases ">
+		<classes>
+			<class name="mct.testrunner.RegressionWithTestng">
+				<methods>
+					<include name="MyAccountOption" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	
+</suite>
